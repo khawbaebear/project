@@ -1,0 +1,226 @@
+
+@font-face {
+  font-family: '../fonts/GothamRounded-Medium';
+  src: url('../fonts/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'),  url('GothamRounded-Medium.otf')  format('opentype'),
+         url('../fonts/GothamRounded-Medium.woff') format('woff'), url('GothamRounded-Medium.ttf')  format('truetype'), url('GothamRounded-Medium.svg#GothamRounded-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+
+
+h4,
+h5,
+h6 {
+    font-family: '../fonts/GothamRounded-Medium';
+    font-weight: 700;
+   
+}
+h2{
+    line-height:1;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 60px;
+    color: #fff;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #fff;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f26522;
+    /*color: #337ab7;*/
+    background: url(../img/meeting.jpg) no-repeat center center;
+    background-size: cover;
+    text-transform: uppercase;
+}
+.intro-header2 {
+    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f26522;
+  /* color: #337ab7;*/
+    background: url(../img/b.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #071115;
+}
+
+p.copyright {
+    margin: 0px 0 0;
+}
+.selectbox{
+    color: #666;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.bg-opa{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    padding-top: 1px;
+    margin-top: 30px;
+    border-radius: 20px;
+   
+    
+}
+.btn-style{
+    background-color: #f26522;
+}
+
+.float-r{
+    float: right;
+    color: #959595;
+    text-align: center;
+
+}
